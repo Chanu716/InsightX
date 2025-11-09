@@ -533,8 +533,8 @@ This application is a **demonstration project** and is intended for:
 |---------------------|-----------------------|-----------------------------------------------------|-----------------------------|
 | Priyanka J          | Data Scientist        | [@Priyanka-2027](https://github.com/Priyanka-2027)  | priyankaj1703@gmail.com     |
 | Venkata Dinesh K    | Full Stack Developer  | [@venkatadinesh](https://github.com/venkatadinesh)  | venkatadineshk01@gmail.com  |
-| Balaji M            | ML Engineer           | [@balajim701](https://github.com/balajim701)        | balajim701@gmail.com        |
-| Chanikya K          | Data Scientist        | [@Chanu716](https://github.com/Chanu716)            | chanikyakorrakuti@gmail.com |
+| Balaji M            | ML Engineer           | [@balaji-mallepalli ](https://github.com/balaji-mallepalli )        | balaji_mallepalli@srmap.edu.in        |
+| Chanikya K          | Data Scientist        | [@Chanu716](https://github.com/Chanu716)            | karrichanikya@gmail.com |
 
 ---
 
