@@ -4,7 +4,6 @@
 
 🌐 **Live Demo:** [InsightX](https://chanu716.github.io/InsightX/)
 
-
 ## 📋 Table of Contents
 - [Overview](#overview)
 - [Features](#features)
@@ -17,6 +16,7 @@
 - [Deployment](#deployment)
 - [Troubleshooting](#troubleshooting)
 - [Disclaimer](#disclaimer)
+- [Team](#team)
 
 ---
 
@@ -527,6 +527,17 @@ This application is a **demonstration project** and is intended for:
 
 ---
 
+## 👥 Team
+
+| Name                | Role                  | GitHub                                              | Gmail                       |
+|---------------------|-----------------------|-----------------------------------------------------|-----------------------------|
+| Priyanka J          | Data Scientist        | [@Priyanka-2027](https://github.com/Priyanka-2027)  | priyankaj1703@gmail.com     |
+| Venkata Dinesh K    | Full Stack Developer  | [@venkatadinesh](https://github.com/venkatadinesh)  | venkatadineshk01@gmail.com  |
+| Balaji M            | ML Engineer           | [@balajim701](https://github.com/balajim701)        | balajim701@gmail.com        |
+| Chanikya K          | Data Scientist        | [@Chanu716](https://github.com/Chanu716)            | chanikyakorrakuti@gmail.com |
+
+---
+
 ## � Model Improvement & Contributions
 
 ### Current Model Status
@@ -626,13 +637,6 @@ This project is for educational purposes. Please ensure compliance with medical 
 
 ---
 
-## 👨‍💻 Developer
-
-**Chanu716**
-- GitHub: [@Chanu716](https://github.com/Chanu716)
-- Repository: [InsightX](https://github.com/Chanu716/InsightX)
-
----
 
 ## 🙏 Acknowledgments
 
@@ -653,5 +657,5 @@ For issues, questions, or contributions:
 
 ---
 
-**Last Updated**: November 9, 2025
+**Last Updated**: November 9, 2025  
 **Version**: 1.0.0
