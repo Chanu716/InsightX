@@ -2,7 +2,8 @@
 
 > An AI-powered web application for analyzing medical imaging scans including Brain MRI, Chest X-rays, Kidney CT scans, and Bone fracture detection.
 
-🌐 **Live Demo:** [InsightX](https://insightx-frontend-gip1.onrender.com)
+🌐 **Live Demo:** [InsightX](https://chanu716.github.io/InsightX/)
+
 
 ## 📋 Table of Contents
 - [Overview](#overview)
@@ -113,13 +114,14 @@ pip install -r requirements.txt
 **Required Packages:**
 - `flask==3.0.0` - Web framework
 - `flask-cors==4.0.0` - Cross-Origin Resource Sharing
-- `tensorflow==2.15.0` - Brain & Bone models
-- `torch==2.1.0` - Chest & Kidney models
-- `torchvision==0.16.0` - Image transformations
+- `tensorflow-cpu==2.20.0` - Brain & Bone models (CPU-optimized)
+- `torch==2.6.0+cpu` - Chest & Kidney models (CPU-optimized)
+- `torchvision==0.21.0+cpu` - Image transformations
 - `torchxrayvision==1.2.0` - Chest X-ray preprocessing
 - `scikit-image==0.21.0` - Image processing
 - `Pillow==10.1.0` - Image handling
 - `numpy==1.24.3` - Numerical operations
+- `gunicorn==21.2.0` - Production WSGI server
 
 ### Step 3: Verify Model Files
 
@@ -127,8 +129,8 @@ Ensure all model files are present:
 ```bash
 # Check model files exist
 Brain/brain_model.h5                    # ~500MB
-Chest/models/densenet121_rsna.pth       # ~28MB
-Kidney/mobilenet_kidney_classifier.pth   # ~9MB
+Chest/densenet121_rsna.pth              # ~28MB
+Kidney/mobilenet_kidney_classifier.pth  # ~9MB
 Bone/bone_model.h5                      # ~100MB
 ```
 
@@ -357,11 +359,11 @@ Content-Type: application/json
 
 **Ready to deploy?** We've got you covered!
 
-InsightX can be deployed on **Railway** (backend) + **Netlify** (frontend) for optimal performance.
+InsightX is deployed on **Railway** (backend) + **GitHub Pages** (frontend) for optimal performance.
 
-### 🚀 Recommended Setup
+### 🚀 Current Setup
 
-- **Frontend:** Netlify (Free tier, Global CDN, instant deployment)
+- **Frontend:** GitHub Pages (Free, Global CDN, automatic deployment)
 - **Backend:** Railway ($5/month after free trial, always-on, fast)
 
 ### 📖 Deployment Guide
@@ -371,24 +373,19 @@ See **[DEPLOY.md](DEPLOY.md)** for complete step-by-step instructions.
 **Quick Deploy:**
 1. Deploy backend on [Railway](https://railway.app) (~10 minutes)
 2. Update `config.js` with Railway URL
-3. Deploy frontend on [Netlify](https://netlify.com) (~30 seconds)
+3. Deploy frontend on [GitHub Pages](https://pages.github.com) (~2 minutes)
 
 ### Deployment Files Included:
 - ✅ `railway.json` - Railway configuration
-- ✅ `netlify.toml` - Netlify configuration
 - ✅ `Procfile` - Process definition
 - ✅ `runtime.txt` - Python version (3.11.9)
 - ✅ `config.js` - Environment-aware API setup
 - ✅ `.gitignore` & `.gitattributes` - Git LFS for models (277MB)
 
----
 ### Model Files Handling:
 - Using **Git LFS** (Large File Storage)
 - Models (277MB) automatically deployed with your code
 - Already configured - just push and deploy!
-
----
-   - Redeploy
 ---
 
 ## 🔧 Troubleshooting
@@ -402,7 +399,7 @@ See **[DEPLOY.md](DEPLOY.md)** for complete step-by-step instructions.
    ```python
    # Verify in app.py MODEL_PATHS dictionary
    'brain': 'Brain/brain_model.h5'
-   'chest': 'Chest/models/densenet121_rsna.pth'
+   'chest': 'Chest/densenet121_rsna.pth'
    'kidney': 'Kidney/mobilenet_kidney_classifier.pth'
    'bone': 'Bone/bone_model.h5'
    ```
@@ -410,7 +407,7 @@ See **[DEPLOY.md](DEPLOY.md)** for complete step-by-step instructions.
 2. **Verify file existence:**
    ```bash
    ls -la Brain/brain_model.h5
-   ls -la Chest/models/densenet121_rsna.pth
+   ls -la Chest/densenet121_rsna.pth
    ls -la Kidney/mobilenet_kidney_classifier.pth
    ls -la Bone/bone_model.h5
    ```

@@ -534,13 +534,13 @@ h1, h2, h3, h4, h5, h6 {
     transform: translateX(-50%);
     width: 600px;
     height: 400px;
-    background: radial-gradient(circle, rgba(52, 199, 89, 0.1) 0%, transparent 70%);
+    background: radial-gradient(circle, rgba(220, 20, 60, 0.1) 0%, transparent 70%);
     pointer-events: none;
     z-index: -1;
 }
 
 .dark-mode .hero-overlay {
-    background: radial-gradient(circle, rgba(52, 199, 89, 0.15) 0%, transparent 70%);
+    background: radial-gradient(circle, rgba(220, 20, 60, 0.15) 0%, transparent 70%);
 }
 
 .hero-title {
