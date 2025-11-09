@@ -1,11 +1,10 @@
 // API Configuration
 const API_CONFIG = {
     // Use environment-specific API URL
-    // In production, this will be set to your Render backend URL
     // In development, it uses localhost
     BASE_URL: window.location.hostname === 'localhost' || window.location.hostname === '127.0.0.1'
         ? 'http://localhost:5000'
-        : 'https://insightx-0wzd.onrender.com', // Replace with your actual Render backend URL
+        : 'web-production-ec0c.up.railway.app', 
     
     ENDPOINTS: {
         HEALTH: '/api/health',
