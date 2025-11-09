@@ -2,6 +2,8 @@
 
 > An AI-powered web application for analyzing medical imaging scans including Brain MRI, Chest X-rays, Kidney CT scans, and Bone fracture detection.
 
+🌐 **Live Demo:** [https://insightx-frontend.onrender.com](https://insightx-frontend.onrender.com)
+
 ## 📋 Table of Contents
 - [Overview](#overview)
 - [Features](#features)
@@ -355,7 +357,11 @@ Content-Type: application/json
 
 **Ready to deploy?** We've got you covered!
 
-InsightX can be deployed on **[Render](https://render.com)** (free tier available) which hosts both frontend and backend.
+InsightX is deployed on **[Render](https://render.com)** with both frontend and backend hosted on the free tier.
+
+### 🌐 Live Application
+- **Frontend:** [https://insightx-frontend.onrender.com](https://insightx-frontend.onrender.com)
+- **Backend API:** [https://insightx-0wzd.onrender.com](https://insightx-0wzd.onrender.com)
 
 ### 🚀 Quick Deploy (5 Steps)
 
