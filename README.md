@@ -2,7 +2,7 @@
 
 > An AI-powered web application for analyzing medical imaging scans including Brain MRI, Chest X-rays, Kidney CT scans, and Bone fracture detection.
 
-🌐 **Live Demo:** [https://insightx-frontend.onrender.com](https://insightx-frontend.onrender.com)
+🌐 **Live Demo:** [InsightX](https://insightx-frontend-gip1.onrender.com)
 
 ## 📋 Table of Contents
 - [Overview](#overview)
